@@ -1,0 +1,217 @@
+@media(max-width: 540px){
+    /* setup */
+    .for-free {
+        font-size: 0.8em;
+    }
+    /* header section */
+    .navs {
+        display: none;
+    }
+    /* main section */
+    #main-section {
+        margin-bottom: 8em;
+    }
+    .main-head, .main-body {
+        width: 90%;
+    }
+    .main-head h2 {
+        font-size: 1.8rem;
+    }
+    .main-body p {
+        font-size: 1.2rem;
+    }
+    /* display section */
+    .display-set-1, .display-set-2 {
+        flex-direction: column;
+    }
+    .display-1, .display-3 {
+        margin-bottom: 4em;
+    }
+    .display-text {
+        width: 90%;
+    }
+    /* cta section */
+    .cta-section {
+        flex-direction: column;
+    }
+    .cta-img img {
+        max-width: 100%;
+    }
+    .cta-text {
+        margin: 4em 0;
+    }
+    .cta-text-head {
+        width: 100%;
+    }
+    /* testimonial section */
+    .testimonials {
+        flex-direction: column;
+    }
+    .testimony-1, .testimony-2, .testimony-3 {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    /* contact-section */
+    .contact-section {
+        width: 90%;
+    }
+    .contact-form {
+        flex-direction: column;
+    }
+    .email-form {
+        margin-bottom: 1em;
+        width: 100%;
+    }
+    .submit-button {
+        width: 100%;
+    }
+    /* footer section */
+    .footer-text {
+        flex-direction: column;
+    }
+    .footer-random {
+        width: 100%;
+    }
+    .footer-random, .footer-contact, .footer-navs {
+        margin-bottom: 2em;
+    }
+    .footer-navs {
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media(min-width: 541px) and (max-width: 767px){
+    /* setup */
+    .for-free {
+        font-size: 0.8em;
+    }
+    /* header section */
+    .navs {
+        display: none;
+    }
+    /* main section */
+    #main-section {
+        margin-bottom: 8em;
+    }
+    .main-head, .main-body {
+        width: 90%;
+    }
+    .main-head h2 {
+        font-size: 1.8rem;
+    }
+    .main-body p {
+        font-size: 1.2rem;
+    }
+    /* display section */
+    .display-set-1, .display-set-2 {
+        flex-direction: column;
+    }
+    .display-1, .display-3 {
+        margin-bottom: 4em;
+    }
+    .display-text {
+        width: 90%;
+    }
+    /* cta section */
+    .cta-section {
+        flex-direction: column;
+    }
+    .cta-img img {
+        max-width: 100%;
+    }
+    .cta-text {
+        margin: 4em 0;
+    }
+    .cta-text-head {
+        width: 100%;
+    }
+    /* testimonial section */
+    .testimonials {
+        flex-direction: column;
+    }
+    .testimony-1, .testimony-2, .testimony-3 {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    /* contact-section */
+    .contact-section {
+        width: 70%;
+    }
+    /* footer section */
+    .footer-text {
+        flex-direction: column;
+    }
+    .footer-random {
+        width: 100%;
+    }
+    .footer-random, .footer-contact, .footer-navs {
+        margin-bottom: 2em;
+    }
+    .footer-navs {
+        flex-direction: column;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 1023px){
+    /* setup */
+    .for-free {
+        font-size: 0.8em;
+    }
+    /* main section */
+    .main-head {
+        width: 80%;
+    }
+    .main-body {
+        width: 70%;
+    }
+    /* display section */
+    .display-text {
+        width: 90%;
+    }
+    /* cta section */
+    .cta-section {
+        flex-direction: column;
+    }
+    .cta-text {
+        margin: 4em 0;
+    }
+    .cta-text-head {
+        width: 100%;
+    }
+    /* testimonial section */
+    .testimonials {
+        flex-direction: column;
+    }
+    .testimony-1, .testimony-2, .testimony-3 {
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    /* contact-section */
+    .contact-section {
+        width: 70%;
+    }
+    /* footer section */
+    .footer-text {
+        flex-direction: column;
+    }
+    .footer-random {
+        width: 100%;
+    }
+    .footer-random, .footer-contact, .footer-navs {
+        margin-bottom: 2em;
+    }
+    .footer-navs {
+        flex-direction: column;
+    }
+}
+
+@media(min-width: 1024px) and (max-width: 1200px) {
+    /* cta section */
+    .cta-img img {
+        max-width: 100%;
+    }
+    /* footer section */
+    .footer-text > * {
+        margin-right: 0.8em;
+    }
+}
